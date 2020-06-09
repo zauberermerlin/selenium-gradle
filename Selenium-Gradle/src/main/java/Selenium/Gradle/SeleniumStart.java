@@ -13,6 +13,9 @@ public class SeleniumStart {
 
 		
 		WebDriver webDriver = new FirefoxDriver();
+
+		// Hier ist noch ein Fehler vorhanden
+		
 		
 		 try {
 			webDriver.navigate().to(new URL("https://www.google.com"));
