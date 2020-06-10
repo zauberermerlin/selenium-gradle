@@ -17,12 +17,7 @@ public class SeleniumStart {
 		// Hier ist noch ein Fehler vorhanden
 		
 		
-		 try {
-			webDriver.navigate().to(new URL("https://www.google.com"));
-		} catch (MalformedURLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		 webDriver.navigate().to("https://www.google.com");
 		
 	}
 

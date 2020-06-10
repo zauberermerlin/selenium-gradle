@@ -1,0 +1,7 @@
+@startuml
+Alice -> Bob: test
+Bob -> Heinz: Bekannter
+Heinz -> Becker: Nachbar
+
+
+@enduml
